@@ -1,2 +1,2 @@
-Hello, World njdisj ! !!
+Hello, World !!
 Welcome to Jenkins Training. thank you !!
