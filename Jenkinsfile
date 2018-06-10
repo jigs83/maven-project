@@ -36,5 +36,14 @@ pipeline {
                 build 'deploy-staging'
             }
         }
+        stage('Deploy_to_production'){
+            steps {
+                timeout(2) {
+                            input 'Do you want to proceed now ?'
+                            }
+                echo "Now build is deploying to production env"
+                build 'deploy-prod'
+            }
+        }
     }
 }
